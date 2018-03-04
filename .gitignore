@@ -1,0 +1,6 @@
+## Ignore Cake Build artifacts
+/tools/
+
+## Ignore DocFX build output
+/build/
+/doc/obj/
