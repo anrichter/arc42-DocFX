@@ -19,6 +19,7 @@ Task("Clean")
     .Description("Cleanup build artifacts")
     .Does(() => {
         CleanDirectory("build");
+        CleanDirectories("**/obj");
     });
 
 Task("DocFX-Build")
