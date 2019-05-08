@@ -4,6 +4,7 @@
 
 #addin "Cake.DocFx&Version=0.12.0"
 #tool "docfx.console&Version=2.42"
+#tool "DocFx.Plugins.PlantUml&Version=1.1.19"
 
 ///////////////////////////////////////////////////////////////////////////////
 // ARGUMENTS
