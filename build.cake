@@ -2,9 +2,9 @@
 // Addins
 ///////////////////////////////////////////////////////////////////////////////
 
-#addin "Cake.DocFx&Version=0.12.0"
-#tool "docfx.console&Version=2.42"
-#tool "DocFx.Plugins.PlantUml&Version=1.1.19"
+#addin "Cake.DocFx&Version=1.0.0"
+#tool "docfx.console&Version=2.59.4"
+#tool "DocFx.Plugins.PlantUml&Version=1.1.24"
 
 ///////////////////////////////////////////////////////////////////////////////
 // ARGUMENTS
