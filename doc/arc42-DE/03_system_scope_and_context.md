@@ -5,82 +5,83 @@ uid: arc42-de-system-scope-and-context
 # Kontextabgrenzung
 
 > [!TIP]
-> **Inhalt.**
+> **Inhalt**
 > 
-> Die Kontextabgrenzung grenzt das System von allen Kommunikationspartnern
-> (Nachbarsystemen und Benutzerrollen) ab. Sie legt damit die externen
-> Schnittstellen fest.
+> Die Kontextabgrenzung grenzt das System gegen alle Kommunikationspartner
+> (Nachbarsysteme und Benutzerrollen) ab. Sie legt damit die externen
+> Schnittstellen fest und zeigt damit auch die Verantwortlichkeit (scope)
+> Ihres Systems: Welche Verantwortung trägt das System und welche
+> Verantwortung übernehmen die Nachbarsysteme?
 > 
-> Differenzieren Sie fachlichen Kontext (fachliche Ein- und Ausgaben) und
-> technischen Kontext (Kanäle, Protokolle, Hardware), falls nötig.
+> Differenzieren Sie fachlichen (Ein- und Ausgaben) und technischen
+> Kontext (Kanäle, Protokolle, Hardware), falls nötig.
 > 
-> **Motivation.**
+> **Motivation**
 > 
-> Die fachlichen und technischen Schnittstellen zu Kommunikationspartnern
-> gehören zu den kritischsten Aspekten eines Systems. Stellen Sie sicher,
-> dass Sie diese komplett verstanden haben.
+> Die fachlichen und technischen Schnittstellen zur Kommunikation gehören
+> zu den kritischsten Aspekten eines Systems. Stellen Sie sicher, dass Sie
+> diese komplett verstanden haben.
 > 
-> **Form.**
+> **Form**
 > 
 > Verschiedene Optionen:
 > 
 > * Diverse Kontextdiagramme
-> * Listen von Kommunikationspartnern mit deren Schnittstellen
+> * Listen von Kommunikationsbeziehungen mit deren Schnittstellen
+> 
+> Siehe [Kontextabgrenzung](https://docs.arc42.org/section-3/) in der
+> online-Dokumentation (auf Englisch!).
 
 ## Fachlicher Kontext
 
 > [!TIP]
-> **Inhalt.**
+> **Inhalt**
 > 
-> Festlegung **aller** Kommunikationspartner (Nutzer, IT-Systeme, …) mit
-> Erklärung der fachlichen Ein- und Ausgabedaten oder Schnittstellen.
-> Zusätzlich bei Bedarf fachliche Datenformate oder Protokolle der
+> Festlegung **aller** Kommunikationsbeziehungen (Nutzer, IT-Systeme, ...)
+> mit Erklärung der fachlichen Ein- und Ausgabedaten oder Schnittstellen.
+> Zusätzlich (bei Bedarf) fachliche Datenformate oder Protokolle der
 > Kommunikation mit den Nachbarsystemen.
 > 
-> **Motivation.**
+> **Motivation**
 > 
 > Alle Beteiligten müssen verstehen, welche fachlichen Informationen mit
 > der Umwelt ausgetauscht werden.
 > 
-> **Form.**
+> **Form**
 > 
-> Alle Diagrammarten, die das System als Black Box darstellen und die
-> fachlichen Schnittstellen zu den Nachbarn beschreiben.
+> Alle Diagrammarten, die das System als Blackbox darstellen und die
+> fachlichen Schnittstellen zu den Nachbarsystemen beschreiben.
 > 
 > Alternativ oder ergänzend können Sie eine Tabelle verwenden. Der Titel
 > gibt den Namen Ihres Systems wieder; die drei Spalten sind:
-> Kommunikationspartner, Eingabe, Ausgabe.
-> 
-> **&lt;Diagramm und/oder Tabelle&gt;**
-> 
-> **&lt;optional: Erläuterung der externen fachlichen Schnittstellen&gt;**
+> Kommunikationsbeziehung, Eingabe, Ausgabe.
+
+**\<Diagramm und/oder Tabelle>**  
+**\<optional: Erläuterung der externen fachlichen Schnittstellen>**
 
 # Technischer Kontext
 
 > [!TIP]
-> **Inhalt.**
+> **Inhalt**
 > 
 > Technische Schnittstellen (Kanäle, Übertragungsmedien) zwischen dem
 > System und seiner Umwelt. Zusätzlich eine Erklärung (*mapping*), welche
 > fachlichen Ein- und Ausgaben über welche technischen Kanäle fließen.
 > 
-> **Motivation.**
+> **Motivation**
 > 
 > Viele Stakeholder treffen Architekturentscheidungen auf Basis der
 > technischen Schnittstellen des Systems zu seinem Kontext.
 > 
-> Insbesondere Infrastruktur- oder Hardwareentwickler entscheiden auch
-> über diese technischen Schnittstellen.
+> Insbesondere bei der Entwicklung von Infrastruktur oder Hardware sind
+> diese technischen Schnittstellen durchaus entscheidend.
 > 
-> **Form.**
+> **Form**
 > 
 > Beispielsweise UML Deployment-Diagramme mit den Kanälen zu
 > Nachbarsystemen, begleitet von einer Tabelle, die Kanäle auf
 > Ein-/Ausgaben abbildet.
-> 
-> **&lt;Diagramm oder Tabelle&gt;**
-> 
-> **&lt;optional: Erläuterung der externen technischen
-> Schnittstellen&gt;**
-> 
-> **&lt;Mapping fachliche auf technische Schnittstellen&gt;**
+
+**\<Diagramm oder Tabelle>**  
+**\<optional: Erläuterung der externen technischen Schnittstellen>**  
+**\<Mapping fachliche auf technische Schnittstellen>**

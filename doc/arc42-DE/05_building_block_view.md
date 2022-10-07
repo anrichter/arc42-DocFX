@@ -5,17 +5,18 @@ uid: arc42-de-building-block-view
 # Bausteinsicht
 
 > [!TIP]
-> **Inhalt.**
+> **Inhalt**
 > 
-> Diese Sicht zeigt die statische Zerlegung des Systems in Bausteine
-> (Module, Komponenten, Subsysteme, Klassen, Interfaces, Pakete,
+> Die Bausteinsicht zeigt die statische Zerlegung des Systems in Bausteine
+> (Module, Komponenten, Subsysteme, Klassen, Schnittstellen, Pakete,
 > Bibliotheken, Frameworks, Schichten, Partitionen, Tiers, Funktionen,
-> Makros, Operationen, Datenstrukturen…) sowie deren Beziehungen.
+> Makros, Operationen, Datenstrukturen, ...) sowie deren Abhängigkeiten
+> (Beziehungen, Assoziationen, ...)
 > 
-> Diese Sicht sollte in jeder Architekturdokumentation vorhanden sein . In
+> Diese Sicht sollte in jeder Architekturdokumentation vorhanden sein. In
 > der Analogie zum Hausbau bildet die Bausteinsicht den *Grundrissplan*.
 > 
-> **Motivation.**
+> **Motivation**
 > 
 > Behalten Sie den Überblick über den Quellcode, indem Sie die statische
 > Struktur des Systems durch Abstraktion verständlich machen.
@@ -23,12 +24,12 @@ uid: arc42-de-building-block-view
 > Damit ermöglichen Sie Kommunikation auf abstrakterer Ebene, ohne zu
 > viele Implementierungsdetails offenlegen zu müssen.
 > 
-> **Form.**
+> **Form**
 > 
 > Die Bausteinsicht ist eine hierarchische Sammlung von Blackboxen und
 > Whiteboxen (siehe Abbildung unten) und deren Beschreibungen.
 > 
-> ![Baustein Sichten](images/05_building_blocks-DE.png)
+> ![Hierarchie in der Bausteinsicht](images/05_building_blocks-DE.png)
 > 
 > **Ebene 1** ist die Whitebox-Beschreibung des Gesamtsystems, zusammen
 > mit Blackbox-Beschreibungen der darin enthaltenen Bausteine.
@@ -39,6 +40,9 @@ uid: arc42-de-building-block-view
 > Bausteine.
 > 
 > **Ebene 3** zoomt in einige Bausteine der Ebene 2 hinein, usw.
+> 
+> Siehe [Bausteinsicht](https://docs.arc42.org/section-5/) in der
+> online-Dokumentation (auf Englisch!).
 
 ## Whitebox Gesamtsystem
 
@@ -59,9 +63,9 @@ uid: arc42-de-building-block-view
 >     (Wiki) oder geschachtelten Elementen (Modellierungswerkzeug)
 >     darstellen.
 > * (optional:) wichtige Schnittstellen, die nicht bereits im
->   Blackbox-Templates eines der Bausteine erläutert werden, aber für
->   das Verständnis der Whitebox von zentraler Bedeutung sind. Aufgrund
->   der vielfältigen Möglichkeiten oder Ausprägungen von Schnittstellen
+>   Blackbox-Template eines der Bausteine erläutert werden, aber für das
+>   Verständnis der Whitebox von zentraler Bedeutung sind. Aufgrund der
+>   vielfältigen Möglichkeiten oder Ausprägungen von Schnittstellen
 >   geben wir hierzu kein weiteres Template vor. Im schlimmsten Fall
 >   müssen Sie Syntax, Semantik, Protokolle, Fehlerverhalten,
 >   Restriktionen, Versionen, Qualitätseigenschaften, notwendige
@@ -98,53 +102,45 @@ uid: arc42-de-building-block-view
 ### &lt;Name Blackbox 1&gt;
 
 > [!TIP]
-> An dieser Stelle beschreiben Sie die &lt;Blackbox 1&gt; anhand des
-> folgenden Blackbox-Templates:
-> 
+> Beschreiben Sie die \<Blackbox 1> anhand des folgenden
+> Blackbox-Templates:
 > * Zweck/Verantwortung
-> * Schnittstelle(n), sofern sie nicht als eigenständige Beschreibungen
->   herausgezogen sind. Hierzu gehören eventuell auch Qualitäts- und
->   Leistungsmerkmale dieser Schnittstelle.
+> * Schnittstelle(n), sofern diese nicht als eigenständige
+>   Beschreibungen herausgezogen sind. Hierzu gehören eventuell auch
+>   Qualitäts- und Leistungsmerkmale dieser Schnittstelle.
 > * (Optional) Qualitäts-/Leistungsmerkmale der Blackbox, beispielsweise
->   Verfügbarkeit, Laufzeitverhalten…
+>   Verfügbarkeit, Laufzeitverhalten o. Ä.
 > * (Optional) Ablageort/Datei(en)
 > * (Optional) Erfüllte Anforderungen, falls Sie Traceability zu
 >   Anforderungen benötigen.
 > * (Optional) Offene Punkte/Probleme/Risiken
-> 
-> *&lt;Zweck/Verantwortung&gt;*
-> 
-> *&lt;Schnittstelle(n)&gt;*
-> 
-> *&lt;(Optional) Qualitäts-/Leistungsmerkmale&gt;*
-> 
-> *&lt;(Optional) Ablageort/Datei(en)&gt;*
-> 
-> *&lt;(Optional) Erfüllte Anforderungen&gt;*
-> 
-> *&lt;(optional) Offene Punkte/Probleme/Risiken&gt;*
 
-### &lt;Name Blackbox 2&gt;
+*\<Zweck/Verantwortung>*  
+*\<Schnittstelle(n)>*  
+*\<(Optional) Qualitäts-/Leistungsmerkmale>*  
+*\<(Optional) Ablageort/Datei(en)>*  
+*\<(Optional) Erfüllte Anforderungen>*  
+*\<(optional) Offene Punkte/Probleme/Risiken>*
 
-> [!TIP]
-> *&lt;Blackbox-Template&gt;*
+### \<Name Blackbox 2>
 
-### &lt;Name Blackbox n&gt;
+*\<Blackbox-Template>*
 
-> [!TIP]
-> *&lt;Blackbox-Template&gt;*
+### \<Name Blackbox n>
 
-### &lt;Name Schnittstelle 1&gt;
+*\<Blackbox-Template>*
 
-…
+### \<Name Schnittstelle 1>
 
-### &lt;Name Schnittstelle m&gt;
+...
+
+### \<Name Schnittstelle m>
 
 ## Ebene 2
 
 > [!TIP]
-> An dieser Stelle können Sie den inneren Aufbau (einiger) Bausteine aus
-> Ebene 1 als Whitebox beschreiben.
+> Beschreiben Sie den inneren Aufbau (einiger) Bausteine aus Ebene 1 als
+> Whitebox.
 > 
 > Welche Bausteine Ihres Systems Sie hier beschreiben, müssen Sie selbst
 > entscheiden. Bitte stellen Sie dabei Relevanz vor Vollständigkeit.
@@ -152,24 +148,18 @@ uid: arc42-de-building-block-view
 > besonders volatile Bausteine. Normale, einfache oder standardisierte
 > Teile sollten Sie weglassen.
 
-### Whitebox *&lt;Baustein 1&gt;*
+### Whitebox *\<Baustein 1>*
 
 > [!TIP]
 > …zeigt das Innenleben von *Baustein 1*.
-> 
-> *&lt;Whitebox-Template&gt;*
+ 
+*\<Whitebox-Template>*
 
-### Whitebox *&lt;Baustein 2&gt;*
+...
 
-> [!TIP]
-> *&lt;Whitebox-Template&gt;*
+### Whitebox *\<Baustein m>*
 
-…
-
-### Whitebox *&lt;Baustein m&gt;*
-
-> [!TIP]
-> *&lt;Whitebox-Template&gt;*
+*\<Whitebox-Template>*
 
 ## Ebene 3
 
@@ -180,19 +170,26 @@ uid: arc42-de-building-block-view
 > Bei tieferen Gliederungen der Architektur kopieren Sie diesen Teil von
 > arc42 für die weiteren Ebenen.
 
-### Whitebox &lt;\_Baustein x.1\_&gt;
+### Whitebox *\<Baustein x.1>*
 
 > [!TIP]
-> …zeigt das Innenleben von *Baustein x.1*.
+> Beschreiben Sie den inneren Aufbau (einiger) Bausteine aus Ebene 2 als
+> Whitebox.
 > 
-> *&lt;Whitebox-Template&gt;*
+> Bei tieferen Gliederungen der Architektur kopieren Sie diesen Teil von
+> arc42 für die weiteren Ebenen.
 
-### Whitebox &lt;\_Baustein x.2\_&gt;
-
-> [!TIP]
-> *&lt;Whitebox-Template&gt;*
-
-### Whitebox &lt;\_Baustein y.1\_&gt;
+### Whitebox *\<Baustein x.1>*
 
 > [!TIP]
-> *&lt;Whitebox-Template&gt;*
+> ...zeigt das Innenleben von *Baustein x.1*.
+
+*\<Whitebox-Template>*
+
+### Whitebox *\<Baustein x.2>*
+
+*\<Whitebox-Template>*
+
+### Whitebox *\<Baustein y.1>*
+
+*\<Whitebox-Template>*

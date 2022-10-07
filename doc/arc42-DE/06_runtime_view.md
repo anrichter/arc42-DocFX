@@ -5,10 +5,10 @@ uid: arc42-de-runtime-view
 # Laufzeitsicht
 
 > [!TIP]
-> **Inhalt.**
+> **Inhalt**
 > 
 > Diese Sicht erklärt konkrete Abläufe und Beziehungen zwischen Bausteinen
-> in Form von Szenarien aus folgenden Bereichen:
+> in Form von Szenarien aus den folgenden Bereichen:
 > 
 > * Wichtige Abläufe oder *Features*: Wie führen die Bausteine der
 >   Architektur die wichtigsten Abläufe durch?
@@ -17,22 +17,23 @@ uid: arc42-de-runtime-view
 > * Betrieb und Administration: Inbetriebnahme, Start, Stop.
 > * Fehler- und Ausnahmeszenarien
 > 
-> Anmerkung: Kriterium für die Auswahl der möglichen Szenarien (d.h.
+> Anmerkung: Das Kriterium für die Auswahl der möglichen Szenarien (d.h.
 > Abläufe) des Systems ist deren Architekturrelevanz. Es geht nicht darum,
 > möglichst viele Abläufe darzustellen, sondern eine angemessene Auswahl
 > zu dokumentieren.
 > 
-> **Motivation.**
+> **Motivation**
 > 
-> Sie sollten verstehen wie (Instanzen von) Bausteine(n) Ihres Systems
+> Sie sollten verstehen, wie (Instanzen von) Bausteine(n) Ihres Systems
 > ihre jeweiligen Aufgaben erfüllen und zur Laufzeit miteinander
 > kommunizieren.
 > 
-> Nutzen Sie solche Szenarien in der Dokumentation hauptsächlich zur
-> besseren Kommunikation mit Stakeholdern, die statische Modelle (z.B.
-> Bausteinsicht, Verteilungssicht) weniger verständlich finden.
+> Nutzen Sie diese Szenarien in der Dokumentation hauptsächlich für eine
+> verständlichere Kommunikation mit denjenigen Stakeholdern, die die
+> statischen Modelle (z.B. Bausteinsicht, Verteilungssicht) weniger
+> verständlich finden.
 > 
-> **Form.**
+> **Form**
 > 
 > Für die Beschreibung von Szenarien gibt es zahlreiche
 > Ausdrucksmöglichkeiten. Nutzen Sie beispielsweise:
@@ -40,21 +41,24 @@ uid: arc42-de-runtime-view
 > * Nummerierte Schrittfolgen oder Aufzählungen in Umgangssprache
 > * Aktivitäts- oder Flussdiagramme
 > * Sequenzdiagramme
-> * BPMN oder EPKs (Ereignis-Prozessketten)
+> * BPMN (Geschäftsprozessmodell und -notation) oder EPKs
+>   (Ereignis-Prozessketten)
 > * Zustandsautomaten
-> * …
+> * ...
+> 
+> Siehe [Laufzeitsicht](https://docs.arc42.org/section-6/) in der
+> online-Dokumentation (auf Englisch!).
 
-## *&lt;Bezeichnung Laufzeitszenario 1&gt;*
+## *\<Bezeichnung Laufzeitszenario 1>*
 
-> [!TIP]
-> * &lt;hier Laufzeitdiagramm oder Ablaufbeschreibung einfügen&gt;
-> * &lt;hier Besonderheiten bei dem Zusammenspiel der Bausteine in
->   diesem Szenario erläutern&gt;
+* \<hier Laufzeitdiagramm oder Ablaufbeschreibung einfügen>
+* \<hier Besonderheiten bei dem Zusammenspiel der Bausteine in diesem
+  Szenario erläutern>
 
-## *&lt;Bezeichnung Laufzeitszenario 2&gt;*
+## *\<Bezeichnung Laufzeitszenario 2>*
 
-…
+...
 
-## *&lt;Bezeichnung Laufzeitszenario n&gt;*
+## *\<Bezeichnung Laufzeitszenario n>*
 
-…
+...

@@ -5,7 +5,7 @@ uid: arc42-de-quality-scenarios
 # Qualitätsanforderungen
 
 > [!TIP]
-> **Inhalt.**
+> **Inhalt**
 > 
 > Dieser Abschnitt enthält möglichst alle Qualitätsanforderungen als
 > Qualitätsbaum mit Szenarien. Die wichtigsten davon haben Sie bereits in
@@ -14,35 +14,39 @@ uid: arc42-de-quality-scenarios
 > Nehmen Sie hier auch Qualitätsanforderungen geringerer Priorität auf,
 > deren Nichteinhaltung oder -erreichung geringe Risiken birgt.
 > 
-> **Motivation.**
+> **Motivation**
 > 
 > Weil Qualitätsanforderungen die Architekturentscheidungen oft maßgeblich
 > beeinflussen, sollten Sie die für Ihre Stakeholder relevanten
 > Qualitätsanforderungen kennen, möglichst konkret und operationalisiert.
+> 
+> **Weiterführende Informationen**
+> 
+> Siehe [Qualitätsanforderungen](https://docs.arc42.org/section-10/) in
+> der online-Dokumentation (auf Englisch!).
 
 ## Qualitätsbaum
 
 > [!TIP]
-> **Inhalt.**
+> **Inhalt**
 > 
-> Der Qualitätsbaum ( a la ATAM) mit Qualitätsszenarien an den Blättern.
+> Der Qualitätsbaum (à la ATAM) mit Qualitätsszenarien an den Blättern.
 > 
-> **Motivation.**
+> **Motivation**
 > 
-> Die mit Prioritäten versehene Baumstruktur gibt Überblick über die
-> oftmals zahlreichen Qualitätsanforderungen.
+> Die mit Prioritäten versehene Baumstruktur gibt Überblick über
+> die --- oftmals zahlreichen --- Qualitätsanforderungen.
+> * Baumartige Verfeinerung des Begriffes „Qualität", mit „Qualität"
+>   oder „Nützlichkeit" als Wurzel.
+> * Mindmap mit Qualitätsoberbegriffen als Hauptzweige
 > 
-> * Baumartige Verfeinerung des Begriffes „Qualität“, mit "Qualität"
->   oder Nützlichkeit als Wurzel.
-> * Mindmap mit Q-Oberbegriffen als Hauptzweige
-> 
-> In jedem Fall sollten Sie hier Verweise auf die Szenarien des folgenden
-> Abschnittes aufnehmen.
+> In jedem Fall sollten Sie hier Verweise auf die Qualitätsszenarien des
+> folgenden Abschnittes aufnehmen.
 
 ## Qualitätsszenarien
 
 > [!TIP]
-> **Inhalt.**
+> **Inhalt**
 > 
 > Konkretisierung der (in der Praxis oftmals vagen oder impliziten)
 > Qualitätsanforderungen durch (Qualitäts-)Szenarien.
@@ -50,20 +54,18 @@ uid: arc42-de-quality-scenarios
 > Diese Szenarien beschreiben, was beim Eintreffen eines Stimulus auf ein
 > System in bestimmten Situationen geschieht.
 > 
-> Wesentlich für die meisten Softwarearchitekten sind zwei Arten von
-> Szenarien:
-> 
-> * Nutzungsszenarien (auch genannt Anwendungs- oder
+> Wesentlich sind zwei Arten von Szenarien:
+> * Nutzungsszenarien (auch bekannt als Anwendungs- oder
 >   Anwendungsfallszenarien) beschreiben, wie das System zur Laufzeit
 >   auf einen bestimmten Auslöser reagieren soll. Hierunter fallen auch
 >   Szenarien zur Beschreibung von Effizienz oder Performance. Beispiel:
 >   Das System beantwortet eine Benutzeranfrage innerhalb einer Sekunde.
 > * Änderungsszenarien beschreiben eine Modifikation des Systems oder
->   seiner unmittelbarer Umgebung. Beispiel: Eine zusätzliche
+>   seiner unmittelbaren Umgebung. Beispiel: Eine zusätzliche
 >   Funktionalität wird implementiert oder die Anforderung an ein
 >   Qualitätsmerkmal ändert sich.
 > 
-> **Motivation.**
+> **Motivation**
 > 
 > Szenarien operationalisieren Qualitätsanforderungen und machen deren
 > Erfüllung mess- oder entscheidbar.
@@ -73,6 +75,6 @@ uid: arc42-de-quality-scenarios
 > Qualitätsziele einer weiteren Präzisierung bis auf die Ebene von
 > diskutierbaren und nachprüfbaren Szenarien.
 > 
-> **Form.**
+> **Form**
 > 
 > Entweder tabellarisch oder als Freitext.

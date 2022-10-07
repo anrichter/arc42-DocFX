@@ -5,7 +5,7 @@ uid: arc42-de-glossary
 # Glossar
 
 > [!TIP]
-> **Inhalt.**
+> **Inhalt**
 > 
 > Die wesentlichen fachlichen und technischen Begriffe, die Stakeholder im
 > Zusammenhang mit dem System verwenden.
@@ -13,17 +13,21 @@ uid: arc42-de-glossary
 > Nutzen Sie das Glossar ebenfalls als Übersetzungsreferenz, falls Sie in
 > mehrsprachigen Teams arbeiten.
 > 
-> **Motivation.**
+> **Motivation**
 > 
 > Sie sollten relevante Begriffe klar definieren, so dass alle Beteiligten
+> * diese Begriffe identisch verstehen, und
+> * vermeiden, mehrere Begriffe für die gleiche Sache zu haben.
 > 
-> 1. diese Begriffe identisch verstehen, und
-> 2. vermeiden, mehrere Begriffe für die gleiche Sache zu haben.
+> **Form**
 > 
-> * Zweispaltige Tabelle mit &lt;Begriff&gt; und &lt;Definition&gt;
+> * Zweispaltige Tabelle mit \<Begriff> und \<Definition>
 > * Eventuell weitere Spalten mit Übersetzungen, falls notwendig.
 > 
-> Begriff              | Definition
-> -------------------- | ----------
-> *&lt;Begriff-1&gt;*  | *&lt;Definition-1&gt;*
-> *&lt;Begriff-2*      | *&lt;Definition-2&gt;*
+> Siehe [Glossar](https://docs.arc42.org/section-12/) in der
+> online-Dokumentation (auf Englisch!).
+> 
+> Begriff         | Definition
+> --------------- | ----------
+> *\<Begriff-1>*  | *\<Definition-1>*
+> *\<Begriff-2>*  | *\<Definition-2>*

@@ -2,14 +2,15 @@
 uid: arc42-de-design-decisions
 ---
 
-# Entwurfsentscheidungen
+
+# Architekturentscheidungen
 
 > [!TIP]
-> **Inhalt.**
+> **Inhalt**
 > 
 > Wichtige, teure, große oder riskante Architektur- oder
 > Entwurfsentscheidungen inklusive der jeweiligen Begründungen. Mit
-> "Entscheidungen" meinen wir hier die Auswahl einer von mehreren
+> \"Entscheidungen\" meinen wir hier die Auswahl einer von mehreren
 > Alternativen unter vorgegebenen Kriterien.
 > 
 > Wägen Sie ab, inwiefern Sie Entscheidungen hier zentral beschreiben,
@@ -18,17 +19,21 @@ uid: arc42-de-design-decisions
 > auf Abschnitt 4, wo schon grundlegende strategische Entscheidungen
 > beschrieben wurden.
 > 
-> **Motivation.**
+> **Motivation**
 > 
 > Stakeholder des Systems sollten wichtige Entscheidungen verstehen und
 > nachvollziehen können.
 > 
-> **Form.**
+> **Form**
 > 
 > Verschiedene Möglichkeiten:
-> 
+> * ADR ([Documenting Architecture
+>   Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions))
+>   für jede wichtige Entscheidung
 > * Liste oder Tabelle, nach Wichtigkeit und Tragweite der
 >   Entscheidungen geordnet
 > * ausführlicher in Form einzelner Unterkapitel je Entscheidung
-> * ADR ([Architecture Decision Record](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions))
->   für jede wichtige Entscheidung
+> 
+> Siehe [Architekturentscheidungen](https://docs.arc42.org/section-9/) in
+> der arc42 Dokumentation (auf Englisch!). Dort finden Sie Links und
+> Beispiele zum Thema ADR.
